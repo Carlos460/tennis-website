@@ -80,7 +80,19 @@ export default function Home() {
       </S.TrainingPlan>
       <S.Contact>
         <S.ContactCard></S.ContactCard>
-        <S.ContactForm></S.ContactForm>
+        <S.ContactForm>
+          <S.ContactTitle>
+            <h1>Contact Us</h1>
+          </S.ContactTitle>
+          <S.ContactNameInput type="text" placeholder="Name" />
+          <S.ContactEmailInput type="text" placeholder="Email" />
+          <S.ContactMessageInput
+            name="message"
+            rows="10"
+            placeholder="Message"
+          />
+          <S.ContactSendInput type="submit" value="Send Message" />
+        </S.ContactForm>
       </S.Contact>
     </>
   );

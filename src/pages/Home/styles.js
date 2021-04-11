@@ -110,8 +110,63 @@ export const TrainingPlan = styled.div`
 export const Contact = styled.div`
   width: 100%;
   height: 100vh;
+  display: flex;
+  justify-content: center;
 `;
 
-export const ContactCard = styled.div``;
+export const ContactCard = styled.div`
+  margin: 50px 0px 0px;
+  width: 400px;
+  height: 500px;
+  border-radius: 15px 0px 0px 15px;
 
-export const ContactForm = styled.form``;
+  background-color: #ffae2e;
+`;
+
+export const ContactForm = styled.form`
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  width: 500px;
+  height: 600px;
+`;
+
+export const ContactTitle = styled.div`
+  text-align: center;
+  margin-top: 20px;
+`;
+
+export const ContactNameInput = styled.input`
+  padding: 5px;
+  margin: 20px;
+  outline: none;
+  font-size: 16px;
+`;
+
+export const ContactEmailInput = styled.input`
+  padding: 5px;
+  margin: 20px;
+  outline: none;
+  font-size: 16px;
+`;
+
+export const ContactMessageInput = styled.textarea`
+  margin: 20px;
+  outline: none;
+  padding: 5px;
+  font-size: 16px;
+`;
+
+export const ContactSendInput = styled.input`
+  height: 40px;
+  width: 200px;
+  margin: 20px auto;
+  background-color: #259ff5;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+`;
