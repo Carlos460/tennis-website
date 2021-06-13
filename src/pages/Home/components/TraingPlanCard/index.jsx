@@ -6,7 +6,7 @@ export default function TrainingPlanCard(props) {
   return (
     <>
       <S.Card>
-        <S.HeadImage></S.HeadImage>
+        <S.HeadImage customImage={props.customImage}></S.HeadImage>
         <S.Title>{props.title}</S.Title>
         <S.Description>{props.description}</S.Description>
         <S.ButtonContainer action="">

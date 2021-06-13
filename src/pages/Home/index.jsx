@@ -60,18 +60,21 @@ export default function Home() {
       </S.ActivityShowcase>
       <S.TrainingPlan>
         <TraingPlanCard
+          customImage={'/img/team.jpg'}
           title={'Team Training'}
           description={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
           blanditiis quaerat vero cupiditate illo neque nostrum commodi totam
           vitae facilis`}
         />
         <TraingPlanCard
+          customImage={'/img/training3.jpg'}
           title={'Personal Training'}
           description={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
           blanditiis quaerat vero cupiditate illo neque nostrum commodi totam
           vitae facilis.`}
         />
         <TraingPlanCard
+          customImage={'/img/camp.jpg'}
           title={'Summer Camp'}
           description={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
           blanditiis quaerat vero cupiditate illo neque nostrum commodi totam

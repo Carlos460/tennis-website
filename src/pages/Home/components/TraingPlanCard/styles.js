@@ -15,8 +15,8 @@ export const Card = styled.div`
 `;
 export const HeadImage = styled.div`
   width: 100%;
-  height: 200px;
-  background-image: url('/img/personal.jpg');
+  height: 250px;
+  background-image: url(${(props) => props.customImage});
   background-size: cover;
 `;
 
