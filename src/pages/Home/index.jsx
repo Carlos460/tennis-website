@@ -39,8 +39,8 @@ export default function Home() {
         <TeamMemberCard />
         <TeamMemberCard />
       </S.TeamShowcase>
-      <S.ActivityShowcase>
-        {/* <S.ActivityShowcaseContainer>
+      {/* <S.ActivityShowcase>
+         <S.ActivityShowcaseContainer>
           <S.ActivityShowcaseRow>
             <ActivityShowcaseCard></ActivityShowcaseCard>
             <ActivityShowcaseCard></ActivityShowcaseCard>
@@ -56,8 +56,9 @@ export default function Home() {
             <ActivityShowcaseCard></ActivityShowcaseCard>
             <ActivityShowcaseCard></ActivityShowcaseCard>
           </S.ActivityShowcaseRow>
-        </S.ActivityShowcaseContainer> */}
-      </S.ActivityShowcase>
+        </S.ActivityShowcaseContainer> 
+      </S.ActivityShowcase> */}
+      <div id="training-section"></div>
       <S.TrainingPlan>
         <TraingPlanCard
           customImage={'/img/team.jpg'}

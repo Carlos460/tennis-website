@@ -3,8 +3,8 @@ import styled from 'styled-components';
 export const Card = styled.div`
   position: relative;
   width: 400px;
-  max-height: 500px;
-  margin: 25px;
+  height: 500px;
+  margin: auto 25px;
   border-radius: 5px;
   overflow: hidden;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),

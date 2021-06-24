@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import * as S from './styles';
 
@@ -6,11 +7,19 @@ export default function Navbar() {
   return (
     <>
       <S.Container>
-        <S.BrandName>Tennis Academy</S.BrandName>
+        <Link to="/">
+          <S.BrandName>Tennis Academy</S.BrandName>
+        </Link>
         <S.LinkList>
-          <S.Link>Plans</S.Link>
-          <S.Link>Shop</S.Link>
-          <S.Link>Login</S.Link>
+          <a href="#training-section">
+            <S.Link>Plans</S.Link>
+          </a>
+          <Link to="/shop">
+            <S.Link>Shop</S.Link>
+          </Link>
+          <Link to="/login">
+            <S.Link>Login</S.Link>
+          </Link>
         </S.LinkList>
       </S.Container>
     </>
