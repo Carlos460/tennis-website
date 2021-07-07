@@ -11,7 +11,7 @@ export default function Navbar() {
           <S.BrandName>Tennis Academy</S.BrandName>
         </Link>
         <S.LinkList>
-          <a href="#training-section">
+          <a href="/#training-section">
             <S.Link>Plans</S.Link>
           </a>
           <Link to="/shop">
