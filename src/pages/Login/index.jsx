@@ -6,7 +6,11 @@ import * as S from './styles';
 export default function LoginPage() {
   return (
     <S.PageContainer>
-      <h1>Hello, this is the login page!</h1>
+      <S.Form action="/">
+        <S.UserInput placeholder="Username" />
+        <S.PasswordInput placeholder="Password" />
+        <S.SubmitButton type="submit" value="Submit" />
+      </S.Form>
     </S.PageContainer>
   );
 }
